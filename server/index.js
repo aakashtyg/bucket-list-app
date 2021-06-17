@@ -1,5 +1,5 @@
 const express = require('express');
-const { db } = require('./database');
+const { db, BucketListItem } = require('./database');
 
 const PORT = 8888;
 const app = express();
@@ -18,8 +18,16 @@ const mount = (app) => {
   });
 };
 
-app.use('/abc', (req, res) => {
-  res.send('Hello world');
+app.use('/bucket-list/add', async function (req, res) {
+  const item = await BucketListItem.create({
+    title: 'go to Japan',
+  });
+
+  res.status(200).json({
+    data: {
+      item,
+    },
+  });
 });
 
 mount(app);
