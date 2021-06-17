@@ -1,2 +1,2 @@
-# bucket-list-app
-An application to store your bucket list items
+# Bucket List App
+An application to manage your bucket list.

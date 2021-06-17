@@ -1,0 +1,106 @@
+body,
+html {
+  height: 100%;
+  background-color: #f6f9fc;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.main-header {
+  font-size: 27px;
+  text-align: center;
+  padding-top: 10px;
+}
+.bucket-item {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+.bucket-item .left img {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+.bucket-item .right {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.bucket-heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+.bucket-tag {
+  background-color: aqua;
+  display: flex;
+  width: fit-content;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.bucket-actions {
+  flex-grow: 1;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.btn {
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-danger {
+  color: #fff;
+  background: #ff4d4f;
+  border-color: #ff4d4f;
+}
+.btn-primary {
+  color: #fff;
+  background: #1890ff;
+  border-color: #1890ff;
+}
+.btn-secondary {
+  background-color: #48c78e;
+  border-color: transparent;
+  color: #fff;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.bucket-form {
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.bucket-form .form-field {
+  margin-bottom: 10px;
+}
+.bucket-form .sub-header {
+  font-size: 14px;
+}
+.bucket-form input {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.375em;
+  color: #363636;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
